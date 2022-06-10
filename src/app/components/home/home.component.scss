@@ -1,0 +1,26 @@
+.parent-div{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    padding: 2%;
+}
+.child-div{
+    width: 50%;
+}
+.home-text{
+    width: 60%;
+    margin-right: 2%;
+}
+.home-text h6{
+    padding: 10px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+.home-text button{
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    background-color: #0c0e44;
+    border: none;
+    border-radius: 18px;
+}

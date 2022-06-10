@@ -1,0 +1,67 @@
+.parent-div{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.child-div{
+    width: 50%;
+    // padding: 20px 10px ;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.child-div:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.text-div h5{
+    font-size: 35px;
+    color: #5754C1;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+label{
+    color: #5754C1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-div{
+    display: flex;
+    justify-content: center;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.btn-div button{
+    padding: 6px 20px;
+    color: white;
+    background-color: #5754C1;
+    border-radius: 25px;
+    border: none;
+    letter-spacing: 1px;
+}
+.signup_text{
+    margin-top: 5%;
+    display: flex;
+    justify-content: end;
+}
+.signup_text a{
+    text-decoration: none;
+    color: #5754C1;
+}
+.signup_text a:hover{
+    text-decoration: underline;
+    color: #5754C1;
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #182267;
+    border-bottom-right-radius: 95px;
+    border-bottom-left-radius: 95px ;
+    padding: 4%;
+}
+.home-text{
+    padding: 5px 16px 10px 16px;
+    width: 80%;
+}

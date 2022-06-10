@@ -1,0 +1,16 @@
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.child-div{
+    width: 50%;
+}
+a:hover{
+    cursor: pointer;
+}
+.parent-div1{
+    display: flex;
+}
